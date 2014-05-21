@@ -25,7 +25,7 @@ body {
 	background: url(../img/bg.jpg);
 	background-size:cover;
 	color:#e7e7d5;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Proxima N W15 Reg', Helvetica, Arial, sans-serif;
 }
 
 .container{
@@ -48,21 +48,13 @@ body {
 	background-repeat: no-repeat;
 }
 
-@media (max-width:480px){
-	.logo{
-	margin: 50px 0 30px;
-	width: 100%;
-	height: 100px;
-	}
-}
-
 .main{
 	text-align: center;
 }
 
 .main-header{
-	margin:0 auto 30px;
-	max-width:360px;
+	margin:0 auto;
+	max-width:200px;
 	border-top:1.5px solid #e7e7d5;
 	border-bottom:1.5px solid #e7e7d5;
 }
@@ -72,7 +64,7 @@ h1 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-weight:lighter;
-	font-size:22px;
+	font-size:24px;
 }
 
 span{
@@ -111,7 +103,9 @@ input{
 	border:none;
 	background:url(../img/signupbutton.jpg);
 }
-
+hr {
+	margin-bottom: 24px;
+}
 footer{
 	margin:35px auto 45px;
 	padding: 5px 0;
@@ -125,11 +119,63 @@ footer{
 	font-family: serif;
 	line-height: 25px;
 }
-
+.headerSpan {
+	min-height: 90px;
+	margin-top: 12px;
+}
+.withrow {
+	text-transform: uppercase;
+	margin-top: 36px;
+	float: left;
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+.withrow span {
+	font-weight: normal;
+}
+#haywoods {
+	float: left;
+	max-width: 200px;
+}
 .break{
 	letter-spacing: 10px;
 	font-weight: lighter;
 }
+.bookButton {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb( 39, 80, 79 );
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(108,150,148) 0%, rgb(138,180,178) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(108,150,148) 0%, rgb(138,180,178) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(108,150,148) 0%, rgb(138,180,178) 100%);
+  opacity: 0.82;
+  box-shadow: 0.891px 0.454px 2px 0px rgb( 21, 42, 41 );
+  text-shadow: 0.5px 0.866px 0px rgb( 32, 55, 55 );
+  font-family: 'Proxima N W15 Bold';
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 5px 5px 2px 5px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+	text-transform: uppercase;
+}
+.orCall {
+  text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#e7e7d5;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-left: 6px;
+}
+.toContact {
+	margin: 24px auto;
+}
+.inJuly {
+	margin-top: 30px;
+}
+
 /*----------------------------------------------------------------------*
 
 	COMMON CLASSES
@@ -152,6 +198,39 @@ footer{
 	clear: both;
 }
 
+@media screen and (max-width: 530px) {
+	.headerSpan {
+		min-height: 140px;
+	}
+	.withrow {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	#haywoods {
+		margin: 0 auto;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-top: 50px;
+	}
+}
+
+@media (max-width:480px){
+	.logo{
+		margin: 50px 0 30px;
+		width: 100%;
+		height: 137px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.orCall {
+		margin-left: 0;
+		display: inherit;
+		margin-top: 12px;
+	}
+}
 
 /*----------------------------------------------------------------------*
 
@@ -159,5 +238,21 @@ footer{
 
 *----------------------------------------------------------------------*/
 
+.Created_with_care_and_a_little_whimsy_on_Main_S {
+  font-size: 13.002px;
+  font-family: 'Proxima N W15 Bold';
+  color: rgb( 231, 231, 213 );
+  line-height: 1.487;
+  text-align: justifyCenter;
+  -moz-transform: matrix( 1.03532608695652,0,0,1.03443113772455,0,0);
+  -webkit-transform: matrix( 1.03532608695652,0,0,1.03443113772455,0,0);
+  -ms-transform: matrix( 1.03532608695652,0,0,1.03443113772455,0,0);
+  position: absolute;
+  left: 259.501px;
+  top: 407.082px;
+  width: 502.977px;
+  height: 167.614px;
+  z-index: 27;
+}
 
 
